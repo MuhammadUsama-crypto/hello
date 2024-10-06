@@ -1,0 +1,99 @@
+.hello {
+    color: rgb(39, 174, 96);
+    /* background-color: aqua; */
+    /* background-image: url('assets/1.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: left; */
+    /* background-attachment: fixed; */
+    /* background: url('assets/1.jpg') no-repeat fixed; */
+    /* height: 500px; */
+    /* border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: red;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: green; */
+    border: 2px solid chartreuse;
+    border-radius: 2px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 60px;
+
+    outline-width: 12px;
+    outline-style: solid;
+    outline-color: red;
+    outline-offset: 5px;
+    text-align: center;
+}
+
+.scroll {
+    height: 500px;
+    border: 2px solid red;
+   max-width: 500px;
+
+    margin: 50px;
+    padding-top: 10px;
+    padding-left: 10px ;
+    text-align:  left;
+    text-decoration: line-through;
+
+}
+.bg {
+    background-image: url('assets/1.jpg');
+}
+.fb-link {
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-shadow: 0px 7px 5px rgba(46,204,113,0.58);
+    text-transform: capitalize;
+}
+/* .unorderlist {
+    list-style:;
+} */
+
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #f1c40f;
+    background-color: #f1c40f;
+}
+.btn:visited {
+    background-color: aqua;
+    border: aqua;
+}
+.btn:active {
+    background-color: green;
+    border: 2px solid green;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #f1c40f;
+    border: 2px solid #f1c40f;
+}
+.fonts {
+    color: #f1c40f;
+    font-size: 100px;   
+    font-weight: 40px;
+    font-family: "Playwrite CU", cursive;
+    font-style: italic;
+}
+table, td,th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    height: 50px;
+   
+}
+.block {
+    display: none;
+    /* visibility: hidden; */
+    background-color: red;
+}
+.inline {
+    display: block;
+    background-color: yellow;
+}
+
+

@@ -1,0 +1,19 @@
+
+.container {
+    width: 100px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 550px;
+    align-items: baseline;
+    flex-wrap: wrap-reverse;
+
+}
+
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
